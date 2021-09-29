@@ -16,6 +16,17 @@ body {
 }
 
 .bg {
-  background: url('') no-repeat center center/cover;
+  background: url(forest.jpg) no-repeat center center/cover;
   position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
 }
